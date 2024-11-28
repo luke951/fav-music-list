@@ -151,11 +151,8 @@ export default {
     }
 
     const isListViewStorage = JSON.parse(localStorage.getItem("isListView"));
-    if(isListViewStorage) {
-      localStorage.setItem("isListView", true);
-    } else {
-      this.isListView = isListViewStorage;
-    }
+
+    this.isListView = isListViewStorage === false ? false : true;
   },
   computed: {
     sortedAlbums() {
