@@ -7,6 +7,7 @@ import i18n from '@/utilities/i18n';
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'vue-select/dist/vue-select.css';
+import './styles/main.scss'
 
 Vue.config.productionTip = false
 Vue.config.devtools = false

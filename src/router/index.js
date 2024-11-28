@@ -9,12 +9,12 @@ export default new Router({
   scrollBehavior () {
     return { x: 0, y: 0 }
   },
-  // routes: [
-  //   {
-  //     path: '/',
-  //     name: 'HomePage',
-  //     component: () => import(/* webpackChunkName: "homePage" */ '../views/HomePage/HomePage.vue')
-  //   },
-  // ],
+  routes: [
+    {
+      path: '/',
+      name: 'HomePage',
+      component: () => import(/* webpackChunkName: "homePage" */ '../views/HomePage/HomePage.vue')
+    },
+  ],
 });
     
